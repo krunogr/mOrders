@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_view_ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DummySectionFragment" >
+
+    <ListView
+        android:id="@+id/listView_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

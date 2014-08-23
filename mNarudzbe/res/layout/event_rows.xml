@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/places_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MenuActivity" >
+
+    <TextView
+        android:id="@+id/event_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@android:string/untitled"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/event_place_textview"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textIsSelectable="false"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/event_date_textview"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/untitled"
+        android:textIsSelectable="false"
+      	android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/event_description_textview"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@android:string/untitled"
+        android:textAlignment="center"
+        android:textIsSelectable="false" 
+        android:textSize="19sp"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_view_comments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".DummySectionFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/button_order"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/rsz_3a_ponuda_01"
+            android:text="@string/order"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/button_info"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/rsz_1b_info_02"
+            android:text="@string/info"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/button_comments"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/rsz_c_komentari_02"
+            android:text="@string/comments"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ListView
+            android:id="@+id/listView_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

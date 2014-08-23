@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mNarudžbe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_app">About</string>
+    <string name="exit_app">Exit</string>
+    <string name="about_app_text">"mNarudzbe\n\nContact: Krunoslav Grcevic\nkrunogr@gmail.com"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="places">Mjesta</string>
+    <string name="ads">Eventi</string>
+    <string name="history">Povijest</string>
+    <string name="order">Ponuda</string>
+    <string name="info">Info</string>
+    <string name="comments">Komentari</string>
+    <string name="amount">Količina</string>
+    <string name="cancel">Odustani</string>
+    <string name="choose">Odaberi</string>
+    <string name="choose_amount">Odaberi količinu</string>
+    <string name="choose_desk">Odaberi broj stola</string>
+    <string name="choose_something">Prvo je potrebno izabrati nešto iz ponude</string>
+    <string name="application_path">/mNarudzbe</string>
+    <string name="no_thanks">Ne, hvala</string>
+    <string name="leave_comment">Želiš li ostaviti komentar za svoju zadnju narudžbu?</string>
+    <string name="save">Spremi</string>
+    <string name="order_is_stored">Narudžba je evidentirana</string>
+    <string name="wait">Pričekajte trenutak...</string>
+    <string name="insert_comment">Upiši komentar</string>
+
+</resources>
