@@ -17,8 +17,14 @@ On the second screen you can see all places which are in system (2th image). So 
 ![Alt text](https://raw.githubusercontent.com/krunogr/Android-app-for-ordering-drinks-in-restaurants/master/mNarudzbe/res/screenshots/placesList.JPG "Places")
 
 On the next image you can see expandable list with a couple of categories of drinks. When you click on some item you can choose number of articles. When you are done with choosing article you should push Naruči and then you will see everything what is in your list (4th image).
+
 ![Alt text](https://raw.githubusercontent.com/krunogr/Android-app-for-ordering-drinks-in-restaurants/master/mNarudzbe/res/screenshots/ordering.JPG "Articles")
 
+After pressing Potvrdi narudžbu user has to put a number of spot in caffe bar. All informations about order is sending through web service to mySQL database.
+
 ![Alt text](https://raw.githubusercontent.com/krunogr/Android-app-for-ordering-drinks-in-restaurants/master/mNarudzbe/res/screenshots/ordering2.JPG "Ordering")
+
+
+In any moment user can see history of orders (5th image) and order again the same drinks.
 
 ![Alt text](https://raw.githubusercontent.com/krunogr/Android-app-for-ordering-drinks-in-restaurants/master/mNarudzbe/res/screenshots/history.JPG "History")
