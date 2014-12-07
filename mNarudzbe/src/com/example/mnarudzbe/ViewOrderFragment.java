@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import android.R;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -33,7 +34,7 @@ import com.example.mnarudzbe.items.PlaceItem;
 
 public class ViewOrderFragment extends Fragment implements OnClickListener {
 
-	static String URL = "http://mnarudzbe.mnarudzbe.eu.cloudbees.net/rest/Resources";
+	static String URL = "http://mnarudzbejava-krunogr.rhcloud.com/rest/Resources";
 	// static String URL =
 	// "http://192.168.1.28:8084/mNarudzbe_web/rest/Resources";
 	public static final String ARG_SECTION_NUMBER = "section_number";

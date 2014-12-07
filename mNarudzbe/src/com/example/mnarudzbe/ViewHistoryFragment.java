@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import android.R;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;

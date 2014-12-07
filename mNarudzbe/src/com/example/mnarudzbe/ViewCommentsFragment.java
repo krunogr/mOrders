@@ -2,6 +2,7 @@ package com.example.mnarudzbe;
 
 import java.util.ArrayList;
 
+import android.R;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -24,7 +25,7 @@ import com.example.mnarudzbe.loaders.JsonCommentsLoader;
 public class ViewCommentsFragment extends Fragment implements OnClickListener {
 
 	// static String URL = "http://192.168.1.28:8084/mNarudzbe_web/rest/Place";
-	static String URL = "http://mnarudzbe.mnarudzbe.eu.cloudbees.net/rest/Place";
+	static String URL = "http://mnarudzbejava-krunogr.rhcloud.com/rest/Place";
 	public static final String ARG_SECTION_NUMBER = "section_number";
 	ImageButton button_offer, button_info, button_comments;
 	private AlertDialog commentDialog;

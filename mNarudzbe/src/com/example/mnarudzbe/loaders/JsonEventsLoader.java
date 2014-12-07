@@ -13,7 +13,7 @@ import com.example.mnarudzbe.WebServiceAsyncTask;
 import com.example.mnarudzbe.items.EventItem;
 
 public class JsonEventsLoader {
-	static String URL = "http://mnarudzbe.mnarudzbe.eu.cloudbees.net/rest/Resources/allEvents";
+	static String URL = "http://mnarudzbejava-krunogr.rhcloud.com/rest/Resources/allEvents";
 	// static String URL =
 	// "http://192.168.1.28:8084/mNarudzbe_web/rest/Resources/allEvents";
 	Context context;

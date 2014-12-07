@@ -13,7 +13,7 @@ import com.example.mnarudzbe.WebServiceAsyncTask;
 import com.example.mnarudzbe.items.CommentItem;
 
 public class JsonCommentsLoader {
-	static String URL = "http://mnarudzbe.mnarudzbe.eu.cloudbees.net/rest/Resources/allComments";
+	static String URL = "http://mnarudzbejava-krunogr.rhcloud.com/rest/Resources/allComments";
 	// static String URL =
 	// "http://192.168.1.28:8084/mNarudzbe_web/rest/Resources/allComments";
 	Context context;

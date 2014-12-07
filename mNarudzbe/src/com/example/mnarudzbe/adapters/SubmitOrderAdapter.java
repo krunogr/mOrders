@@ -2,6 +2,7 @@ package com.example.mnarudzbe.adapters;
 
 import java.util.ArrayList;
 
+import android.R;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.mnarudzbe.R;
 import com.example.mnarudzbe.items.ArticleItem;
 
 public class SubmitOrderAdapter extends ArrayAdapter<ArticleItem> {

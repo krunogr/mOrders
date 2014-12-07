@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import android.R;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,7 +14,6 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.mnarudzbe.R;
 import com.example.mnarudzbe.items.ArticleItem;
 
 public class OfferAdapter extends BaseExpandableListAdapter {
