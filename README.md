@@ -1,4 +1,5 @@
-Android-app-for-ordering-drinks-in-restaurants
+mOrders
 ==============================================
 
-Android app for ordering drinks in restaurants. App uses REST service connected to MySql database. App is part of the system which containts Android app, RESTU service and Java web app. Technologies: Java, Android.
+Android application which is making ordering drinks in bars possible via smarthphone. 
+Application is using REST service connected to MySql database. Technologies: Java, Android.
